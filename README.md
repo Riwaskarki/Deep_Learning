@@ -29,6 +29,7 @@ Q3. What variable(s) should be removed from the input data because they are neit
 
 ________________________________________
 Compiling, Training, and Evaluating the Model
+
 Q4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 •	Neurons:
 o	I selected 80 neurons for the first hidden layer and 30 neurons for the second hidden layer. These numbers were chosen to provide sufficient capacity for the model to learn patterns in the data without making the model too complex.
