@@ -67,6 +67,11 @@ o	A Random Forest is an ensemble learning method that could potentially handle c
 2.	XGBoost:
 o	XGBoost is a powerful gradient boosting algorithm that might perform better in this classification task. It handles imbalanced data well and can efficiently deal with a large number of features and non-linear patterns. It also provides better control over overfitting through regularization.
 Both models are tree-based, making them better suited to structured tabular data like the one in this dataset. Given that the neural network achieved moderate success, these models could be worth exploring to see if they provide better accuracy and lower loss.
+
+#### Model optimization
+
+The model was optimized by increasing depth and complexity, adding hidden layers with higher neuron counts to capture complex patterns. Regularization techniques, including L2 regularization and dropout, were employed in each layer to prevent overfitting. Batch normalization was also added after each dense layer to stabilize training, reducing sensitivity to weight initialization. We used a fine-tuned learning rate of 0.00005 with the Adam optimizer for stable convergence. Additionally, callbacks like EarlyStopping and ReduceLROnPlateau were incorporated to prevent unnecessary training and dynamically adjust the learning rate. This enhanced deep neural network significantly improved the model’s accuracy and stability.
+
 ________________________________________
 #### Conclusion
 The neural network model demonstrated moderate performance with a 73.15% accuracy. However, by optimizing the model architecture, adding regularization, and experimenting with different machine learning algorithms like Random Forest or XGBoost, the overall prediction accuracy and robustness could likely be improved. The next steps would involve these optimizations and potentially re-evaluating the model's generalization capabilities on different datasets.
