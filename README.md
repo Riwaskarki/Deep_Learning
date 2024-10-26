@@ -7,13 +7,13 @@ The neural network model consists of three layers, as shown in the image provide
 •	Second Hidden Layer: The next layer has 30 neurons, also using the ReLU activation function.
 •	Output Layer: Finally, the model outputs a binary classification using a single neuron with a sigmoid activation function. This setup is suitable for binary classification tasks like the one at hand.
 Model Structure
-The model structure, as shown in the first image, reveals:
+
 •	Total Parameters: 11,181
 •	Trainable Parameters: 11,181
  
 ________________________________________
 #### Results
-After compiling and training the model, it was evaluated using test data. The results, as shown in the second image, include:
+After compiling and training the model, it was evaluated using test data. The results, include:
 •	Accuracy: 0.7315
 •	Loss: 0.5627
  
